@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"بحث...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="My Engineering AxiomsA few months back I gave a talk in which I shared a list of my personal engineering axioms – things that, over the years, I’ve come to think of as generally true and useful to hav">
+<meta property="og:type" content="article">
+<meta property="og:title" content="My Engineering Axioms">
+<meta property="og:url" content="http://example.com/2025/03/12/My%20Engineering%20Axioms/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="My Engineering AxiomsA few months back I gave a talk in which I shared a list of my personal engineering axioms – things that, over the years, I’ve come to think of as generally true and useful to hav">
+<meta property="og:locale">
+<meta property="article:published_time" content="2025-03-12T07:25:15.525Z">
+<meta property="article:modified_time" content="2025-03-12T07:35:27.747Z">
+<meta property="article:author" content="苏飞">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/2025/03/12/My%20Engineering%20Axioms/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh","comments":true,"permalink":"http://example.com/2025/03/12/My%20Engineering%20Axioms/","path":"2025/03/12/My Engineering Axioms/","title":"My Engineering Axioms"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>My Engineering Axioms | Hexo</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="تشغيل شريط التصفح" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Hexo</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="بحث" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          المحتويات
+        </li>
+        <li class="sidebar-nav-overview">
+          عام
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#My-Engineering-Axioms"><span class="nav-number">1.</span> <span class="nav-text">My Engineering Axioms</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Change-is-constant"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">1. Change is constant.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Your-product-is-an-asset-but-code-is-a-liability"><span class="nav-number">1.0.0.2.</span> <span class="nav-text">2. Your product is an asset, but code is a liability.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-Duplication-is-less-costly-than-premature-abstraction"><span class="nav-number">1.0.0.3.</span> <span class="nav-text">3. Duplication is less costly than premature abstraction.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-Code-should-be-easy-to-delete"><span class="nav-number">1.0.0.4.</span> <span class="nav-text">4. Code should be easy to delete.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-Existing-code-exerts-a-powerful-influence"><span class="nav-number">1.0.0.5.</span> <span class="nav-text">5. Existing code exerts a powerful influence.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-Accidental-complexity-is-one-of-the-biggest-risks"><span class="nav-number">1.0.0.6.</span> <span class="nav-text">6. Accidental complexity is one of the biggest risks.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-Technical-excellence-can-be-shadowed-by-bad-personal-skills"><span class="nav-number">1.0.0.7.</span> <span class="nav-text">7. Technical excellence can be shadowed by bad personal skills.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-You-are-not-your-code-Be-kind-to-the-coder-not-to-the-code"><span class="nav-number">1.0.0.8.</span> <span class="nav-text">8. You are not your code. Be kind to the coder, not to the code.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#9-Treat-people-who-know-less-than-you-with-respect-and-patience"><span class="nav-number">1.0.0.9.</span> <span class="nav-text">9. Treat people who know less than you with respect and patience.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#10-The-only-true-authority-stems-from-knowledge-not-from-position"><span class="nav-number">1.0.0.10.</span> <span class="nav-text">10. The only true authority stems from knowledge, not from position.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#11-Teaching-is-a-form-of-learning-in-disguise"><span class="nav-number">1.0.0.11.</span> <span class="nav-text">11. Teaching is a form of learning in disguise.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#12-Lift-the-skills-of-people-around-you-not-just-yourself"><span class="nav-number">1.0.0.12.</span> <span class="nav-text">12. Lift the skills of people around you, not just yourself.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#13-The-longer-you-wait-the-more-you%E2%80%99ll-know"><span class="nav-number">1.0.0.13.</span> <span class="nav-text">13. The longer you wait the more you’ll know.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#14-A-good-type-system-is-worth-its-weight-plus-some"><span class="nav-number">1.0.0.14.</span> <span class="nav-text">14. A good type system is worth its weight plus some.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#15-The-right-team-of-people-trumps-everything-else"><span class="nav-number">1.0.0.15.</span> <span class="nav-text">15. The right team of people trumps everything else.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#16-Stick-to-boring-technology-unless-there%E2%80%99s-a-good-reason-not-to"><span class="nav-number">1.0.0.16.</span> <span class="nav-text">16. Stick to boring technology, unless there’s a good reason not to.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#17-Have-the-smallest-team-possible-but-no-smaller-Grow-it-carefully"><span class="nav-number">1.0.0.17.</span> <span class="nav-text">17. Have the smallest team possible, but no smaller. Grow it carefully.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#18-Rest"><span class="nav-number">1.0.0.18.</span> <span class="nav-text">18. Rest.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#19-Don%E2%80%99t-pick-a-solution-until-you%E2%80%99ve-thought-of-at-least-one-more"><span class="nav-number">1.0.0.19.</span> <span class="nav-text">19. Don’t pick a solution until you’ve thought of at least one more.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#20-Have-opinions-but-avoid-expressing-them-in-ways-that-cause-other-people-to-believe-you-won%E2%80%99t-change-them"><span class="nav-number">1.0.0.20.</span> <span class="nav-text">20. Have opinions, but avoid expressing them in ways that cause other people to believe you won’t change them.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#21-It%E2%80%99s-OK-to-say-%E2%80%9CI-don%E2%80%99t-know%E2%80%9D-or-%E2%80%9CI-need-to-research-that-before-I-have-an-answer%E2%80%9D"><span class="nav-number">1.0.0.21.</span> <span class="nav-text">21. It’s OK to say “I don’t know” or “I need to research that before I have an answer”.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#22-Writing-throwaway-code-to-explore-a-problem-space-is-underrated"><span class="nav-number">1.0.0.22.</span> <span class="nav-text">22. Writing throwaway code to explore a problem space is underrated.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#23-Manage-state-carefully"><span class="nav-number">1.0.0.23.</span> <span class="nav-text">23. Manage state carefully.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#24-It%E2%80%99s-all-about-trade-offs"><span class="nav-number">1.0.0.24.</span> <span class="nav-text">24. It’s all about trade-offs.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#25-A-good-design-is-one-in-which-you-can-change-your-mind-without-changing-too-much-code"><span class="nav-number">1.0.0.25.</span> <span class="nav-text">25. A good design is one in which you can change your mind without changing too much code.</span></a></li></ol></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">苏飞</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">المقالات</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">التصنيفات</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">الوسوم</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/12/My%20Engineering%20Axioms/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="苏飞">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="My Engineering Axioms | Hexo">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          My Engineering Axioms
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">نُشر في</span>
+      
+
+      <time title="أُنشأ: 2025-03-12 15:25:15 / عُدل: 15:35:27" itemprop="dateCreated datePublished" datetime="2025-03-12T15:25:15+08:00">2025-03-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">في</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BC%96%E7%A8%8B%E6%80%BB%E7%BB%93/" itemprop="url" rel="index"><span itemprop="name">编程总结</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="My-Engineering-Axioms"><a href="#My-Engineering-Axioms" class="headerlink" title="My Engineering Axioms"></a><a target="_blank" rel="noopener" href="https://martinrue.com/my-engineering-axioms/">My Engineering Axioms</a></h1><p>A few months back I gave a talk in which I shared a list of my personal engineering axioms – things that, over the years, I’ve come to think of as generally true and useful to have in mind when writing code, building things, and working with others.</p>
+<p>Axiom is a fancy word, but popping a few layers off the etymology stack we arrive neatly at the ancient Greek word <a target="_blank" rel="noopener" href="https://en.wiktionary.org/wiki/%E1%BC%80%CE%BE%CE%AF%CF%89%CE%BC%CE%B1">ἀξίωμα</a>, or “that which is thought fit or worthy”. I like that, and consider each item on the list at least worthy of consideration.</p>
+<p>Of course they’re <strong>my</strong> engineering axioms – things I believe to be useful based on my own experience. Your experience may well differ. Maybe you already knew about <a target="_blank" rel="noopener" href="https://martinrue.com/zzuy-a-lesson-in-perseverance/">zero termination</a>, or have better tools than <a target="_blank" rel="noopener" href="https://martinrue.com/give-yourself-more-playtime/">scissors to remove bugs</a> from your programs.</p>
+<p>In any case, I thought it would be fun to share the list here, with a few brief clarifications. Some things are pretty unsurprising, but hopefully others will generate some provocative thoughts and&#x2F;or interesting disagreements.</p>
+<h4 id="1-Change-is-constant"><a href="#1-Change-is-constant" class="headerlink" title="1. Change is constant."></a>1. Change is constant.</h4><p>This one shouldn’t be too controversial. Almost everything is always changing, including the rate of change itself. We need to acknowledge not only that our ability to respond to change is crucial, but that how well we do it (time, cost, quality, reliability) is often a dimension of our competitiveness.</p>
+<h4 id="2-Your-product-is-an-asset-but-code-is-a-liability"><a href="#2-Your-product-is-an-asset-but-code-is-a-liability" class="headerlink" title="2. Your product is an asset, but code is a liability."></a>2. Your product is an asset, but code is a liability.</h4><p>Your product solves your customer’s problem(s), and therefore is your asset. The code itself is the cost of creating the asset. The more code you have, the more it needs to be read, tested, changed, and understood. This is especially relevant when you consider axiom 1. Accept new code (and dependency on external code) conservatively. The best code is code you don’t have to write.</p>
+<h4 id="3-Duplication-is-less-costly-than-premature-abstraction"><a href="#3-Duplication-is-less-costly-than-premature-abstraction" class="headerlink" title="3. Duplication is less costly than premature abstraction."></a>3. Duplication is less costly than premature abstraction.</h4><p>Until you have a high degree of confidence that your abstraction is going to pay for itself because it solves a real, abstract problem you really do have, don’t do it. Wait and learn more. Until then, repeating code can help avoid dependency, which itself makes the code easier to change independently or delete. A premature abstraction creates complexity through dependency and indirection, and can become a bottleneck to your ability to respond to change.</p>
+<h4 id="4-Code-should-be-easy-to-delete"><a href="#4-Code-should-be-easy-to-delete" class="headerlink" title="4. Code should be easy to delete."></a>4. Code should be easy to delete.</h4><p>Write code to be removable, which in large part is the same as saying “decoupled”. For sure not all code needs to be similarly removable, but minimising dependencies, having clear boundaries via well-defined interfaces, and having a thoughtful overall system design allows parts to be removed&#x2F;changed more easily. I once heard someone use the expression “code spent”, as an alternative to “code written” and I love that. I like the implication that removing code is reducing future cost.</p>
+<h4 id="5-Existing-code-exerts-a-powerful-influence"><a href="#5-Existing-code-exerts-a-powerful-influence" class="headerlink" title="5. Existing code exerts a powerful influence."></a>5. Existing code exerts a powerful influence.</h4><p>The very fact it’s there suggests it’s correct and necessary. Hopefully it is, but not always. We need to maintain both the confidence to change it, and the ability to reason about whether we should. Don’t let the existence of code itself create doubt that it can’t be removed. As per axiom 4, it should be easy to remove, and the system design should be good enough to enable us to understand whether we still need it.</p>
+<h4 id="6-Accidental-complexity-is-one-of-the-biggest-risks"><a href="#6-Accidental-complexity-is-one-of-the-biggest-risks" class="headerlink" title="6. Accidental complexity is one of the biggest risks."></a>6. Accidental complexity is one of the biggest risks.</h4><p>Accidental complexity is complexity that can be avoided, and occurs due to things like poor design, bad decisions, and not prioritising an appropriate level of simplicity within a system. If simplicity is not a goal, accidental complexity is more likely to occur as a system grows, and will gradually negatively affect almost everything from changing the system to even being able to understand it. The 2006 paper <a target="_blank" rel="noopener" href="http://curtclifton.net/papers/MoseleyMarks06a.pdf">Out of the Tar Pit</a> is a worthwhile read on this subject.</p>
+<h4 id="7-Technical-excellence-can-be-shadowed-by-bad-personal-skills"><a href="#7-Technical-excellence-can-be-shadowed-by-bad-personal-skills" class="headerlink" title="7. Technical excellence can be shadowed by bad personal skills."></a>7. Technical excellence can be shadowed by bad personal skills.</h4><p>Unless you’re working completely alone, it’s not just your ability to solve technical problems, to write good code, etc, that matters. To the contrary, they matter even less if you make the people around you unhappy and less productive. Just like learning to write good code, you have to learn “to people” good as well. Empathy is a big part of this, as is recognising that people are different – be caring, be understanding, help others and ask for help yourself, be nice. Be an engineer others want to work with.</p>
+<h4 id="8-You-are-not-your-code-Be-kind-to-the-coder-not-to-the-code"><a href="#8-You-are-not-your-code-Be-kind-to-the-coder-not-to-the-code" class="headerlink" title="8. You are not your code. Be kind to the coder, not to the code."></a>8. You are not your code. Be kind to the coder, not to the code.</h4><p>Code is merely a moment in time that captured what we thought we knew about something. It’s not you. You may have wrote it, but since that moment (even if it was 3 minutes ago) you’ve grown, but the code has not. A conversation about code, good or bad, should never be personal. Keep it professional. Talk about the code, or about the problem, but don’t make it about the person who wrote it. Use “we” instead of “you”. Sometimes I try to pretend I wrote the code someone else wrote, which helps me avoid accidentally sounding personal.</p>
+<h4 id="9-Treat-people-who-know-less-than-you-with-respect-and-patience"><a href="#9-Treat-people-who-know-less-than-you-with-respect-and-patience" class="headerlink" title="9. Treat people who know less than you with respect and patience."></a>9. Treat people who know less than you with respect and patience.</h4><p>We all start somewhere, and the journey is a lot more joyful when you’re surrounded by patient people who want you to succeed, rather than those who make you feel like you don’t belong. If you struggle with this, it may be helpful to remember that the newbie programmer almost certainly does something better than you do – perhaps they’re fluent in another language, or cook amazingly, or play a sport. Just imagine yourself in the reverse role. How would you like them to treat you, the total newbie? Again: be an engineer others want to work with.</p>
+<h4 id="10-The-only-true-authority-stems-from-knowledge-not-from-position"><a href="#10-The-only-true-authority-stems-from-knowledge-not-from-position" class="headerlink" title="10. The only true authority stems from knowledge, not from position."></a>10. The only true authority stems from knowledge, not from position.</h4><p>Knowledge and understanding of the problem, the domain, the customer, are all far more important than whatever the first 3 letters on your business card are. <a target="_blank" rel="noopener" href="https://youtu.be/cISYzA36-ZY?t=85">Even if it does have a watermark</a>. Understand how something works from first principles, build a solid understanding, and authority will follow.</p>
+<h4 id="11-Teaching-is-a-form-of-learning-in-disguise"><a href="#11-Teaching-is-a-form-of-learning-in-disguise" class="headerlink" title="11. Teaching is a form of learning in disguise."></a>11. Teaching is a form of learning in disguise.</h4><p>If you think you know something, try teaching it. Often the very act of trying to explain what you know to someone else forces you to formalise your own thoughts much more clearly. Writing things down seems to have a similar effect. I’ve lost count of the number of times I’ve begun explaining something only to find I don’t quite understand it as well as I thought.</p>
+<h4 id="12-Lift-the-skills-of-people-around-you-not-just-yourself"><a href="#12-Lift-the-skills-of-people-around-you-not-just-yourself" class="headerlink" title="12. Lift the skills of people around you, not just yourself."></a>12. Lift the skills of people around you, not just yourself.</h4><p>A great team is never a great because of one amazing person. It’s a great team because everyone challenges each other and everybody grows together. When you learn something cool, share it – help the people around you get better. As they do the same, everybody benefits and nobody gets left behind. It’s also far more fun. Secondary benefit: axiom 11.</p>
+<h4 id="13-The-longer-you-wait-the-more-you’ll-know"><a href="#13-The-longer-you-wait-the-more-you’ll-know" class="headerlink" title="13. The longer you wait the more you’ll know."></a>13. The longer you wait the more you’ll know.</h4><p>I’m still learning this and trying hard to avoid my almost default desire to decide quickly. The truth is, the longer you delay non-essential decisions the more information you’ll have to lean on when the time comes to make it. Of course you can’t always procrastinate a decision, but often you can, and as a minimum you should at least consider whether not knowing the answer right now is actually OK.</p>
+<h4 id="14-A-good-type-system-is-worth-its-weight-plus-some"><a href="#14-A-good-type-system-is-worth-its-weight-plus-some" class="headerlink" title="14. A good type system is worth its weight plus some."></a>14. A good type system is worth its weight plus some.</h4><p>Having gone backwards and forwards through various static and dynamic languages over my career, I’m currently of the opinion that a good type system is worth its overhead. A good type system shouldn’t carry all that much overhead. If the type system is designed well, it can almost feel like a dynamic language (via features like inference and flow analysis) while removing a whole class of issues that the compiler can handle far better and quicker than you can. Developments like ownership in Rust are a nice example of how this has gone even further than people would have imagined years back.</p>
+<h4 id="15-The-right-team-of-people-trumps-everything-else"><a href="#15-The-right-team-of-people-trumps-everything-else" class="headerlink" title="15. The right team of people trumps everything else."></a>15. The right team of people trumps everything else.</h4><p>Having a team of people who just want to work together and build great things makes a lot of other problems easier to deal with. The word “right” here is highly subjective and contextual, but at least anecdotally, empathy, respect, and friendship have been recurring elements of great teams I’ve been part of.</p>
+<h4 id="16-Stick-to-boring-technology-unless-there’s-a-good-reason-not-to"><a href="#16-Stick-to-boring-technology-unless-there’s-a-good-reason-not-to" class="headerlink" title="16. Stick to boring technology, unless there’s a good reason not to."></a>16. Stick to boring technology, unless there’s a good reason not to.</h4><p>Boring tech is often older and better understood. There’s battle-hardened experience of how to use it effectively, better understanding of its failure modes, and it’s easier to find people and resources on how to best apply it. I really like Dan McKinley’s idea of <a target="_blank" rel="noopener" href="https://mcfunley.com/choose-boring-technology">innovation tokens</a>. You only get 3. Use them to adopt or build brand new stuff – ideally stuff that will make you better at your core competency – but any more than 3 and the risk of never reaching stability&#x2F;maturity starts to grow.</p>
+<h4 id="17-Have-the-smallest-team-possible-but-no-smaller-Grow-it-carefully"><a href="#17-Have-the-smallest-team-possible-but-no-smaller-Grow-it-carefully" class="headerlink" title="17. Have the smallest team possible, but no smaller. Grow it carefully."></a>17. Have the smallest team possible, but no smaller. Grow it carefully.</h4><p>A play on a well-known quote, and your mileage may vary on this one. In my career so far, I’ve reliably seen smaller teams be more effective than larger ones. There’s a balance to be found, for sure, which depends on the magnitude and complexity of the problem you’re solving. That said, smaller teams benefit from less communication overhead, less room for miscommunication, and more space for everyone’s voice to be heard. In a smaller team, it also feels more personal, and I feel more responsible, and I like that.</p>
+<h4 id="18-Rest"><a href="#18-Rest" class="headerlink" title="18. Rest."></a>18. Rest.</h4><p>I’m happy to see the gradual de-sexification of the “work all hours to be successful” attitude, and far more attention being put on mental health and well-being. It’s incredibly difficult to feel happy when you don’t feel rested, and it’s even more difficult to do your best work when you’re not feeling happy. To work at our best, we have to spend time not working. I like to think of rest as a key part of my ability to work, in the same way it is for physical exercise.</p>
+<h4 id="19-Don’t-pick-a-solution-until-you’ve-thought-of-at-least-one-more"><a href="#19-Don’t-pick-a-solution-until-you’ve-thought-of-at-least-one-more" class="headerlink" title="19. Don’t pick a solution until you’ve thought of at least one more."></a>19. Don’t pick a solution until you’ve thought of at least one more.</h4><p>It’s enticing and exciting when that thing clicks in your head and you realise you found a way to solve the problem. Perhaps with a trivial problem that’s cool and there’s really nothing more to do. However, if the problem is non-trivial or important, it’s worth considering that there may be other solutions you simply haven’t thought of yet.</p>
+<p>To avoid getting carried away in the excitement of going from no solution to a solution, and simply going with the first thing that comes into your head, try to think of at least 1 more. Trying to find a second solution often forces you to think differently, and once you have two you’ll be forced to consider the trade-offs in order to select one. Such contrasting trade-offs can often help frame the problem more clearly as well.</p>
+<h4 id="20-Have-opinions-but-avoid-expressing-them-in-ways-that-cause-other-people-to-believe-you-won’t-change-them"><a href="#20-Have-opinions-but-avoid-expressing-them-in-ways-that-cause-other-people-to-believe-you-won’t-change-them" class="headerlink" title="20. Have opinions, but avoid expressing them in ways that cause other people to believe you won’t change them."></a>20. Have opinions, but avoid expressing them in ways that cause other people to believe you won’t change them.</h4><p>Expressing our beliefs and opinions is important, and we should all have the room to do that. However, there’s a fine line between sharing an opinion and sounding as though you’re sharing an immovable fact. In a team, it’s incredibly healthy for everyone to feel like they can challenge an opinion and potentially change it, or their own.</p>
+<p>A great piece of advice I received that helps with this is to express your beliefs along with a percentage of how sure you are. “I’m 95% sure using Visual Basic is a bad idea.” Even when it’s 95%, it’s both an opening for someone to question the belief and create a conversation, and an opportunity for you to simply revise your sureness if new information is learned.</p>
+<h4 id="21-It’s-OK-to-say-“I-don’t-know”-or-“I-need-to-research-that-before-I-have-an-answer”"><a href="#21-It’s-OK-to-say-“I-don’t-know”-or-“I-need-to-research-that-before-I-have-an-answer”" class="headerlink" title="21. It’s OK to say “I don’t know” or “I need to research that before I have an answer”."></a>21. It’s OK to say “I don’t know” or “I need to research that before I have an answer”.</h4><p>Let’s be honest, none of us have a clue what we’re doing. You do? OK, well I don’t. Our industry moves quickly, and while there’s lots of new old things, there’s a healthy amount of new new things as well. We’re all learning every day, and not having an answer is absolutely fine. Our value is not our ability to know everything, it’s our ability to learn, to find out, to answer those questions and create new ones.</p>
+<p>I’m excited when someone tells me “I don’t know” because now I know we can explore the problem together and both learn something. Don’t hide it as though you’re the only one who doesn’t know. Often nobody knows, but your honesty just enabled everyone to join in openly and work together.</p>
+<h4 id="22-Writing-throwaway-code-to-explore-a-problem-space-is-underrated"><a href="#22-Writing-throwaway-code-to-explore-a-problem-space-is-underrated" class="headerlink" title="22. Writing throwaway code to explore a problem space is underrated."></a>22. Writing throwaway code to explore a problem space is underrated.</h4><p>It can be quicker to get it completely wrong a few times and start over than to attempt to get it right first time. Sometimes the best way to explore the problem is by screwing around very close to it and learning as much as you can.</p>
+<p>Perhaps you don’t really understand the problem space yet, but by trying a few things out you can discover stuff that high level conversations about design, or reading docs will completely miss. With the freedom to make as many mistakes as you like and throw it all away at the end, you can learn very quickly.</p>
+<h4 id="23-Manage-state-carefully"><a href="#23-Manage-state-carefully" class="headerlink" title="23. Manage state carefully."></a>23. Manage state carefully.</h4><p>Every program has state, but how that state is managed can make a world of difference. Poor management of state is a huge contributing factor to overall system complexity, and often occurs because it hasn’t been thought about early enough, before it grew into a much worse version of the problem.</p>
+<p>There are lots of different strategies to help, from particular approaches to handling state in a given environment, to using functional languages and&#x2F;or approaches to create tighter constraints around how state can change. Whatever you do, be deliberate about how state in your system changes.</p>
+<h4 id="24-It’s-all-about-trade-offs"><a href="#24-It’s-all-about-trade-offs" class="headerlink" title="24. It’s all about trade-offs."></a>24. It’s all about trade-offs.</h4><p>With almost every decision you make, you’re either deliberately or accidentally trading off one thing for another thing. Sometimes the trade-offs are obvious, but sometimes they are layers away from the thing we can see in front of us. Always be thinking about where the trade-offs may be if they’re not immediately obvious.</p>
+<p>A good example that comes to mind is Go. Go has a fairly poor type system (currently), and it’s a tiny language. What’s the trade-off? Due to its size, and limited support for fanciness, my code looks like your code and I read other people’s code with less “wow, I need to rewrite this ASAP” than ever before and I feel far more productive. There’s always a trade-off somewhere. Look for it and you’ll be in a position to make better decisions.</p>
+<h4 id="25-A-good-design-is-one-in-which-you-can-change-your-mind-without-changing-too-much-code"><a href="#25-A-good-design-is-one-in-which-you-can-change-your-mind-without-changing-too-much-code" class="headerlink" title="25. A good design is one in which you can change your mind without changing too much code."></a>25. A good design is one in which you can change your mind without changing too much code.</h4><p>As per axiom 1, change is constant. That implies that we need to handle changing conditions well to succeed – not just external change that occurs around us and takes us along for the ride, but also the internal change that come from pivots, new features, scaling challenges, etc.</p>
+<p>A good system design should accommodate, as much as possible, our need to change how we approach the problem without forcing us to start over from scratch. In other words, the fewer parts we have to change or remove (which should be easy as per axiom 4), the quicker we can move in the face of change; the better the design.</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/03/12/%E5%BC%80%E5%B0%8F%E5%B7%AE/" rel="prev" title="开小差">
+                  <i class="fa fa-angle-left"></i> 开小差
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/03/12/%E5%BE%85%E6%95%B4%E7%90%86%E6%B8%85%E5%8D%95/" rel="next" title="待整理清单">
+                  待整理清单 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">苏飞</span>
+  </div>
+  <div class="powered-by">تطبيق الموقع <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
