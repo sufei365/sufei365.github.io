@@ -19,22 +19,26 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
+    <meta name="description" content="&#x2F;* Copyright 2014 Mozilla Foundation  *  * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);  * you may not use this file except in compliance with the License.  * You may obtain a copy">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/tags/plan/index.html">
+<meta property="og:url" content="http://example.com/2024/12/31/file/web/debugger/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="&#x2F;* Copyright 2014 Mozilla Foundation  *  * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);  * you may not use this file except in compliance with the License.  * You may obtain a copy">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-12-31T08:26:12.000Z">
+<meta property="article:modified_time" content="2025-03-14T09:01:34.009Z">
 <meta property="article:author" content="苏飞">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/tags/plan/">
+<link rel="canonical" href="http://example.com/2024/12/31/file/web/debugger/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":"","permalink":"","path":"tags/plan/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2024/12/31/file/web/debugger/","path":"2024/12/31/file/web/debugger/","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Tag: plan | Hexo</title>
+<title> | Hexo</title>
   
 
 
@@ -136,50 +140,207 @@
 
     </div>
 
-    <div class="main-inner tag posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">plan
-          <small>Tag</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/12/31/file/web/debugger/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="苏飞">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | Hexo">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
         </h1>
-      </div>
 
-      
-    <div class="collection-year">
-      <span class="collection-header">2025</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2024-12-31 16:26:12" itemprop="dateCreated datePublished" datetime="2024-12-31T16:26:12+08:00">2024-12-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2025-03-14 17:01:34" itemprop="dateModified" datetime="2025-03-14T17:01:34+08:00">2025-03-14</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">/* Copyright 2014 Mozilla Foundation
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+:root {
+  --panel-width: 300px;
+}
+
+#PDFBug,
+#PDFBug :is(input, button, select) {
+  font: message-box;
+}
+#PDFBug {
+  background-color: rgb(255 255 255);
+  border: 1px solid rgb(102 102 102);
+  position: fixed;
+  top: 32px;
+  right: 0;
+  bottom: 0;
+  font-size: 10px;
+  padding: 0;
+  width: var(--panel-width);
+}
+#PDFBug .controls {
+  background: rgb(238 238 238);
+  border-bottom: 1px solid rgb(102 102 102);
+  padding: 3px;
+}
+#PDFBug .panels {
+  inset: 27px 0 0;
+  overflow: auto;
+  position: absolute;
+}
+#PDFBug .panels > div {
+  padding: 5px;
+}
+#PDFBug button.active {
+  font-weight: bold;
+}
+.debuggerShowText,
+.debuggerHideText:hover {
+  background-color: rgb(255 255 0 / 0.25);
+}
+#PDFBug .stats {
+  font-family: courier;
+  font-size: 10px;
+  white-space: pre;
+}
+#PDFBug .stats .title {
+  font-weight: bold;
+}
+#PDFBug table {
+  font-size: 10px;
+  white-space: pre;
+}
+#PDFBug table.showText {
+  border-collapse: collapse;
+  text-align: center;
+}
+#PDFBug table.showText,
+#PDFBug table.showText :is(tr, td) {
+  border: 1px solid black;
+  padding: 1px;
+}
+#PDFBug table.showText td.advance {
+  color: grey;
+}
+
+#viewer.textLayer-visible .textLayer {
+  opacity: 1;
+}
+
+#viewer.textLayer-visible .canvasWrapper {
+  background-color: rgb(128 255 128);
+}
+
+#viewer.textLayer-visible .canvasWrapper canvas {
+  mix-blend-mode: screen;
+}
+
+#viewer.textLayer-visible .textLayer span {
+  background-color: rgb(255 255 0 / 0.1);
+  color: rgb(0 0 0);
+  border: solid 1px rgb(255 0 0 / 0.5);
+  box-sizing: border-box;
+}
+
+#viewer.textLayer-visible .textLayer span[aria-owns] {
+  background-color: rgb(255 0 0 / 0.3);
+}
+
+#viewer.textLayer-hover .textLayer span:hover {
+  background-color: rgb(255 255 255);
+  color: rgb(0 0 0);
+}
+
+#viewer.textLayer-shadow .textLayer span {
+  background-color: rgb(255 255 255 / 0.6);
+  color: rgb(0 0 0);
+}
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2025-01-09T15:26:19+08:00"
-              content="2025-01-09">
-          01-09
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2025/01/09/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E8%AE%A1%E5%88%92/" itemprop="url">
-            <span itemprop="name">博客写作计划</span>
-          </a>
-      </div>
+    <footer class="post-footer">
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/12/31/file/web/viewer/" rel="prev" title="">
+                  <i class="fa fa-angle-left"></i> 
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/01/09/%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E8%AE%A1%E5%88%92/" rel="next" title="博客写作计划">
+                  博客写作计划 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
 
 </div>
   </main>
